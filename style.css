@@ -1,12 +1,74 @@
+/* Llamar ID - # */
+/* Llamar class - . */
+
+
+
 body {
     background-color: rgb(255, 255, 255);
 }
 
 nav {}
 
+/* #principal{
+    background-image: url('assets/bg1.png');
+    background-size: cover;
+} */
+
+#proyectos {
+    text-decoration: none;
+}
+
+/* .botonProyectos {
+    text-decoration-color: black;
+    background-color: rgb(255, 255, 255);
+    --bs-btn-color: #000000;
+    border: 0;
+
+} */
+
+.botonProyectos:hover {
+    background-color: #ffff17f2;
+    cursor: pointer;
+    text-decoration-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #presentacion {
+    
     height: 90vh;
     display: flex;
     justify-content: start;
     align-items: center;
+
+    background-image: url("assets/bgPresentacion02.jpg");
+    background-size: cover;
+
+}
+
+/* .text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: #dee2e6 !important;
+} */
+
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1 {
+    background-image: url('assets/backPp02.jpg');
+    background-size: cover;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(246, 238, 7, 0.25);
+}
+
+#habilidades{
+    
 }

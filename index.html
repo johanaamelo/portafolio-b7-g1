@@ -15,7 +15,7 @@
 
 
   <!-- mi style se pone al final para que pueda sobreescribir lo que no quiera de mi html -->
-   <!-- Para usar los iconos usamos: <i class="bi-alarm"></i> -->
+  <!-- Para usar los iconos usamos: <i class="bi-alarm"></i> -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -60,19 +60,23 @@
   </header>
 
   <main>
-    <section id="presentacion" class="container col-xxl-8 px-4 py-5 vh-75">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Alejandra Melo
-          </h1>
-          <p class="lead">Soy egresada de la carrera en Ing. en Sistemas Computaciones, con experiencia en el área
-            administrativa, busco una oportunidad para ampliar mi conocimiento en mi área de estudio sumando experiencia
-            y conocimientos.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+    <section id="presentacion" class="container-fluid">
+      <div class="container col-xxl-8 px-4 py-5 vh-75">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+          </div>
+          <div class="col-lg-6 text-body-emphasis" >
+            <h1 class="display-5 fw-bold lh-1 mb-3" style="color:#ffffff">Alejandra Melo
+            </h1>
+            <p class="lead " style="color:#ffffff">Ingeniera en Sistemas Computacionales con
+              experiencia en gestión administrativa. Apasionada por encontrar soluciones tecnológicas innovadoras y
+              optimizar procesos. Actualmente profundizando en programación web para ampliar mis habilidades y
+              contribuir
+              a proyectos desafiantes..</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Contactame</button>
+              
+            </div>
           </div>
         </div>
       </div>
@@ -80,185 +84,190 @@
 
     <section id="habilidades" class="container px-4 py-5" id="featured-3">
       <!-- Titulo de seccion -->
-      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <h2 class="pb-2 border-bottom" >Habilidades</h2>
       <!-- Contendor de mis cartas -->
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <!-- Habilidad 1 -->
         <div class="feature col">
+          <!-- bg-warning  hago el contenedor del icono amarillo -->
           <div
-            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded-4">
-            <i class="bi bi-code-square"></i>
+            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-warning fs-2 py-2 px-3 rounded-4">
+            <!-- style="font-size: 2rem; color: rgb(0, 0, 0);"--- es para cambiar el color del icono -->
+            <i class="bi bi-code-square" style="font-size: 2rem; color: rgb(0, 0, 0);"></i>
           </div>
-          <h3 class="fs-2 text-body-emphasis my-2">Desarrollo Web</h3>
+          <h3 class="fs-2 text-body-emphasis my-2 "> Desarrollo Web</h3>
           <p>Conocimientos en HTML, CSS, JS.</p>
         </div>
         <div class="feature col">
           <div
-            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded-4">
-            <i class="bi bi-people-fill"></i>
+            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-warning bg-gradient fs-2 py-2 px-3 rounded-4">
+            <!-- style="font-size: 2rem; color: rgb(0, 0, 0);"--- es para cambiar el color del icono -->
+            <i class="bi bi-people-fill" style="font-size: 2rem; color: rgb(0, 0, 0);"></i>
           </div>
           <h3 class="fs-2 text-body-emphasis my-2">Trabajo en Equipo</h3>
           <p></p>
         </div>
         <div class="feature col">
           <div
-            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded-4">
-            <i class="bi bi-backpack2"></i>
+            class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-warning bg-gradient fs-2 py-2 px-3 rounded-4">
+            <!-- style="font-size: 2rem; color: rgb(0, 0, 0);"--- es para cambiar el color del icono -->
+            <i class="bi bi-backpack2" style="font-size: 2rem; color: rgb(0, 0, 0);"></i>
           </div>
           <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
           <p>Conocimientos en HTML, CSS, JS.</p>
         </div>
-        
+
       </div>
     </section>
 
     <section id="proyectos" class="container px-4 py-5">
-      <h2 class="pb-2 border-bottom">Custom cards</h2>
+    <h2 class="pb-2 border-bottom">Proyectos</h2>
 
+      <!-- row-cols-lg-3: acomoda en 3 columnas el contenido, cambiando el 3 cambian las columnas -->
+      <!-- lg es el tamaño que tendra la pantalla y en ese tamaño se divide la pantalla en lo que yo indique en este caso en 3 -->
+      <!-- es un breakpoint -->
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+        <!-- Tarjeta 1 -->
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-1.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+          <!-- Agregamos la clase proyecto y el id proyecto 1 para poder modificar con mi propia hoja de estilos -->
+          <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden text-bg-pink rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-10 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">
-                  <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                    class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Earth</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>3d</small>
+                  <button type="button" class="btn btn-warning botonProyectos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-link-45deg"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z">
+                      </path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z">
+                      </path>
+                    </svg>
+                    <a href="https://prismatic-boba-1335b8.netlify.app/" target="_blank"> Link</a>
+                  </button>
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
+        <!-- Tarjeta 2-->
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-2.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
+          <!-- Agregamos la clase proyecto y el id proyecto 1 para poder modificar con mi propia hoja de estilos -->
+          <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden text-bg-pink rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-10 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">El Antipodcast</h3>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">
-                  <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                    class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Pakistan</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>4d</small>
+
+                  <button type="button" class="btn btn-warning botonProyectos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-link-45deg"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z">
+                      </path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z">
+                      </path>
+                    </svg>
+                    <a href="https://singular-kheer-abd194.netlify.app/" target="_blank"> Link</a>
+                  </button>
+
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
+        <!-- Tarjeta 3 -->
         <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url('unsplash-photo-3.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
+          <!-- Agregamos la clase proyecto y el id proyecto 1 para poder modificar con mi propia hoja de estilos -->
+          <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden text-bg-pink rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-10 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi Portafolio</h3>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">
-                  <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                    class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>California</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>5d</small>
+                  <button type="button" class="btn btn-warning botonProyectos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-link-45deg"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z">
+                      </path>
+                      <path
+                        d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z">
+                      </path>
+                    </svg>
+                    <a href="https://starlit-griffin-70138f.netlify.app/" target="_blank"> Link</a>
+                  </button>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
+
+
+
+
       </div>
     </section>
 
     <section id="testimonios">
-      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-            aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-            class=""></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
-            aria-current="true"></button>
-        </div>
+      <!-- carrousel-dark + data-bs-theme="dark" -- hace mas clarito el carrusel -->
+      <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" data-bs-theme="dark"
+        data-bs-ride="carousel">
+        <!-- indicadores de abajo para ver en que seccion del carrusel estamos -->
         <div class="carousel-inner">
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-              </div>
-            </div>
+          <!-- la clase active permite ver el carrusel si no la tiene no se ve nada -->
+          <!-- bloque 1 -->
+          <div class="carousel-item active" data-bs-interval="3000">
+            <article class="conteiner text-center">
+              <img class="rounded-4"
+                src="https://www.shutterstock.com/image-vector/vector-19th-century-mathematician-ada-600nw-2322760109.jpg"
+                height="200" alt="Ada Lovelace">
+              <h3 class="my-3">Ada Lovelace</h3>
+              <p>"Alejandra es una estudiante excepcional"</p>
+            </article>
           </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
-            </div>
+
+          <!-- bloque 2 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <article class="conteiner text-center">
+              <img class="rounded-4"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0OodTsWtJJrJ8HaYf5_PtuRrmqcdnBGxeEw&s"
+                height="200" alt="Grace Murray">
+              <h3 class="my-3">Grace Murray</h3>
+              <p>"Alejandra es muy aplicada"</p>
+            </article>
           </div>
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
-            </div>
+
+          <!-- bloque 3 -->
+          <div class="carousel-item" data-bs-interval="3000">
+            <article class="conteiner text-center">
+              <img class="rounded-4"
+                src="https://i.etsystatic.com/20908186/r/il/feffe4/2155975965/il_570xN.2155975965_b9hd.jpg" height="200"
+                alt="Hedy Lamarr">
+              <h3 class="my-3">Hedy Lamarr</h3>
+              <p>"Alejandra es una estudiante excepcional"</p>
+            </article>
           </div>
+
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
       </div>
     </section>
+
   </main>
 
   <footer id="contacto" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
