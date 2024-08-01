@@ -13,7 +13,7 @@ Proyecto desplegado https://starlit-griffin-70138f.netlify.app/
 ![Habilidades](assets/readme/2.png)
 ![Proyectos](assets/readme/3.png)
 ![Testimonios](assets/readme/4.png)
-![Contacto]("assets/readme/5.png")
+![Contacto](assets/readme/5.png)
 
 ## Tecnologías
 * HTML
