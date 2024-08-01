@@ -9,10 +9,10 @@ Proyecto desplegado https://starlit-griffin-70138f.netlify.app/
 
 ## Seccion de mi sitio
 
-![Presentacion]("assets/readme/1.png")
-![Habilidades]("assets/readme/2.png")
-![Proyectos]("assets/readme/3.png")
-![Testimonio]("assets/readme/4.png")
+![Presentacion](assets/readme/1.png)
+![Habilidades](assets/readme/2.png)
+![Proyectos](assets/readme/3.png)
+![Testimonios](assets/readme/4.png)
 ![Contacto]("assets/readme/5.png")
 
 ## Tecnologías
