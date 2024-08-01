@@ -25,5 +25,3 @@ Proyecto desplegado https://starlit-griffin-70138f.netlify.app/
 Desarrollado con ❤️ por Alejandra Melo en TECNOLOCHICAS PRO
 
 
-
-[".../assets/readme/.1.png"]: "assets/readme/1.png"
